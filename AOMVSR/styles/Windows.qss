@@ -1,0 +1,39 @@
+QWidget#mainWindow { background-color : #fefae0;}
+
+QToolBar{
+    background-color : #ffb4a2;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    opacity: 100;
+    spacing : 10;
+}
+
+QToolBar QToolButton:hover {
+    padding : 10 10;
+    border: 1px;
+}
+
+QTreeView { background-color: #ffddd2; }
+
+QLabel {
+    font: bold;
+    font-size : 20px;
+}
+
+QPushButton#btnSave { 
+    background-color : #fec5bb;
+    max-width : 55px;
+    padding: 3px;
+}
+
+QProgressBar{
+    text-align : center;
+    max-height : 20%;
+    border-radius: 6px;
+}
+
+QProgressBar::chunk{
+    border-radius: 6px;
+    background-color: #009688;
+}
